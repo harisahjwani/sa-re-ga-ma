@@ -1,7 +1,6 @@
-/** Python code */
+// Python code
 basic.showIcon(IconNames.Heart)
 music.setVolume(255)
-pins.analogSetPitchPin(AnalogPin.P0)
 let d = 1000
 let SA = 256
 let RE = SA * (9 / 8)
@@ -12,8 +11,8 @@ let DHA = PA * (10 / 9)
 let NI = DHA * (9 / 8)
 let SA2 = NI * (16 / 15)
 basic.pause(50)
-music.setVolume(127)
-basic.forever(function on_forever() {
+music.setVolume(255)
+basic.forever(function () {
     pins.analogPitch(SA, d)
     pins.analogPitch(RE, d)
     pins.analogPitch(GA, d)

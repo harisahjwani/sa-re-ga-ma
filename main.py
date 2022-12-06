@@ -1,8 +1,4 @@
-"""
-
-Python code
-
-"""
+# Python code
 basic.show_icon(IconNames.HEART)
 music.set_volume(255)
 pins.analog_set_pitch_pin(AnalogPin.P0)
@@ -16,7 +12,7 @@ DHA = PA * (10 / 9)
 NI = DHA * (9 / 8)
 SA2 = NI * (16 / 15)
 basic.pause(50)
-music.set_volume(127)
+music.set_volume(255)
 
 def on_forever():
     pins.analog_pitch(SA, d)
